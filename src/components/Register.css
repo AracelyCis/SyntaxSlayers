@@ -1,0 +1,80 @@
+/* Fondo general para la página de registro */
+.register-background {
+    background-color: #ff0000; /* Fondo rojo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura completa de la ventana */
+    margin: 0; /* Asegura que no haya márgenes */
+  }
+  
+  /* Contenedor del formulario de registro */
+  .register-container {
+    max-width: 400px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor */
+    padding: 20px; /* Espaciado interno del contenedor */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    background-color: #fff; /* Fondo blanco para el contenedor */
+    text-align: center; /* Centra el texto */
+  }
+  
+  /* Estilo para el título del formulario */
+  .register-container h2 {
+    margin-bottom: 20px; /* Espacio debajo del título */
+    font-size: 24px; /* Tamaño del texto */
+  }
+  
+  /* Agrupación de los elementos del formulario */
+  .input-group {
+    margin-bottom: 15px; /* Espacio entre los campos */
+  }
+  
+  /* Estilo para las etiquetas de entrada */
+  .input-group label {
+    display: block;
+    margin-bottom: 5px; /* Espacio debajo de la etiqueta */
+  }
+  
+  /* Estilo para los campos de entrada */
+  .input-group input {
+    width: 100%;
+    padding: 8px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+  }
+  
+  /* Estilo para los botones */
+  button {
+    width: 100%; /* Ancho completo del contenedor */
+    padding: 10px; /* Espaciado interno */
+    background-color: #007bff; /* Color de fondo azul */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de mano al pasar sobre el botón */
+  }
+  
+  /* Estilo para el botón al pasar el ratón */
+  button:hover {
+    background-color: #0056b3; /* Azul más oscuro */
+  }
+  
+  /* Estilo para mensajes de error */
+  .error-message {
+    color: red; /* Color del texto de error */
+    font-size: 0.875em; /* Tamaño de fuente más pequeño */
+    margin: 10px 0; /* Espacio arriba y abajo */
+  }
+  
+  /* Estilo para el enlace a la política de privacidad */
+  .register-container a {
+    color: #007bff; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+  }
+  
+  .register-container a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+  }
+  
